@@ -1,0 +1,51 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#submitSphere{
+    cursor: pointer;
+}
+.H3Answers{
+    background-color: hsl(0, 0%, 90%);
+    display: inline-block;
+    padding: 10px 10px;
+    border: 1px solid hsl(0, 0%, 50%);
+    border-radius: 5px;
+}
+#countLabel{
+    font-size: 10em;
+    display: block;
+    text-align: center;
+}
+#countContainer{
+    text-align: center;
+}
+.countButtons{
+    font-size: 1.5em;
+    padding: 10px 15px;
+    border: 1px solid hsl(0, 0%, 50%);
+    border-radius: 5px;
+    background-color: hsl(0, 0%, 90%);
+    transition: background-color 0.1s;
+    cursor: pointer;
+}
+.countButtons:hover{
+    background-color: hsl(0, 0%, 80%);
+}
+.countButtons:active{
+    background-color: hsl(0, 0%, 90%);
+}
+#randomDiv{
+    text-align: center;
+}
+#randomNumButton{
+    font-size: 3em;
+    text-align: center;
+    cursor: pointer;
+}
+.randomNumLabels{
+    text-align: center;
+    border: 1px solid hsl(0, 0%, 50%);
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 1.5em;
+}
